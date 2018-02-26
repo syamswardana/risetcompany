@@ -1,0 +1,35 @@
+.banner {
+  width:100%;
+  height: 480px;
+  background-image: url('../img/banner2.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.icon-service {
+  font-size: 45pt;
+  color: #f0ad4e;
+}
+.progress-new {
+  height: 10px;
+}
+.facts {
+  font-family: 'Josefin Sans', sans-serif;
+}
+li {
+  color: #a3aaaa;
+}
+.menu-footer a {
+  color: #a3aaaa;
+}
+.menu-footer li a:hover{
+  color: #f0ad4e;
+  text-decoration: none;
+}
+.menu-footer li a:active{
+  color: #f0ad4e;
+  text-decoration: none;
+}
+.menu-footer li a:focus{
+  color: #f0ad4e;
+  text-decoration: none;
+}
