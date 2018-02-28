@@ -2,12 +2,13 @@
   height: 480px;
   background-color: rgb(168,170,170,0.4);
   background-image: url('../img/banner2.jpg');
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-repeat: no-repeat;
 }
 @media (max-width: 767px) {
   .banner{
     background-image: url('../img/banner3.jpg');
+    background-size: 100% auto;
   }
 }
 .icon-service {
@@ -23,8 +24,15 @@
 li {
   color: #a3aaaa;
 }
+.menu-footer {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
 .menu-footer a {
   color: #a3aaaa;
+  padding: 0 7px 0 0;
 }
 .menu-footer li a:hover{
   color: #f0ad4e;
@@ -156,4 +164,29 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 .btn-banner:hover {
   background-color: #f0ad4e;
   color: rgb(120,114,120);
+}
+.text-banner1 {
+  font-size:24px;
+  font-family:'Josefin Sans', sans-serif;
+  letter-spacing:5px;
+  font-weight:300;
+}
+.text-banner2 {
+font-size:76px;
+font-family:'Josefin Sans', sans-serif;
+letter-spacing:5px;
+font-weight:300;
+}
+@media (max-width:767px) {
+  .text-banner1 {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .text-banner2 {
+    font-size: 24px;
+  }
+}
+body {
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 15px;
 }
